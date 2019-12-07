@@ -1,0 +1,157 @@
+<!doctype html>
+<html>
+
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+
+	<title>Google Analytics</title>
+
+	<link rel="stylesheet" href="css/reset.css">
+	<link rel="stylesheet" href="css/reveal.css">
+	<link rel="stylesheet" href="css/theme/black.css">
+
+	<!-- Theme used for syntax highlighting of code -->
+	<link rel="stylesheet" href="lib/css/monokai.css">
+
+	<!-- Printing and PDF exports -->
+	<script>
+		var link = document.createElement('link');
+		link.rel = 'stylesheet';
+		link.type = 'text/css';
+		link.href = window.location.search.match(/print-pdf/gi) ? 'css/print/pdf.css' : 'css/print/paper.css';
+		document.getElementsByTagName('head')[0].appendChild(link);
+	</script>
+</head>
+
+<body>
+	<div class="reveal">
+		<div class="slides">
+			<section data-background-image="https://htmlemail.io/img/blog-ga.jpg">
+				<p class="fragment"
+					style="position: absolute; left: 0; top: 30px; box-shadow: 0 1px 4px rgba(0,0,0,0.5), 0 5px 25px rgba(0,0,0,0.2); background-color: rgba(0, 0, 0, 0.6); color: #fff; padding: 20px; font-size: 45px;">
+					Analysis of traffic</p>
+				<p class="fragment"
+					style="position: absolute; right: 0; top: 30px; box-shadow: 0 1px 4px rgba(0,0,0,0.5), 0 5px 25px rgba(0,0,0,0.2); background-color: rgba(0, 0, 0, 0.6); color: #fff; padding: 20px; font-size: 45px;">
+					Evaluation of Behaviour</p>
+				<p class="fragment"
+					style="position: absolute; left: 0; top: 400px; box-shadow: 0 1px 4px rgba(0,0,0,0.5), 0 5px 25px rgba(0,0,0,0.2); background-color: rgba(0, 0, 0, 0.6); color: #fff; padding: 20px; font-size: 45px;">
+					Transition sources</p>
+				<p class="fragment"
+					style="position: absolute; right: 0; top: 400px; box-shadow: 0 1px 4px rgba(0,0,0,0.5), 0 5px 25px rgba(0,0,0,0.2); background-color: rgba(0, 0, 0, 0.6); color: #fff; padding: 20px; font-size: 45px;">
+					User goals</p>
+			</section>
+			<section
+				data-background-image="https://www.publicdomainpictures.net/pictures/130000/velka/yellow-orange-background.jpg">
+				<section>
+					<h4 style="margin-bottom: 1500px; text-shadow: 2px 2px 4px rgba(150, 150, 150, 1);">The principle
+						of Google Analytics</h4>
+					<img class="fragment"
+						src="https://blogmedia.evbstatic.com/wp-content/uploads/wpmulti/sites/19/2016/06/23165509/event-websites.jpg"
+						alt="user" style="width: 45%; position: absolute; top: 100px; left: 0px">
+					<img class="fragment"
+						src="https://hi-tech.imgsmail.ru/pic_image/740d186dc4f5c661570d5ecb8791099c/1920/-/1191080/"
+						alt="server" style="width: 45%; position: absolute; top: 100px;">
+					<img class="fragment"
+						src="https://www.eclipsemediasolutions.com/sites/default/files/Audience-web-traffic-fluctuations3.jpg"
+						alt="report" style="width: 50%; position: absolute; top: 430px; left: 25%">
+				</section>
+				<section>
+					<h4 style="text-shadow: 2px 2px 4px rgba(150, 150, 150, 1);">How it works</h4>
+					<img class="fragment"
+						src="https://wonderbuild.com/wp-content/uploads/2017/10/google-analytics-logo.png" alt="GA"
+						style="width: 15%; margin-right: 70%;">
+
+					<div class="fragment">
+						<img src="http://cdn.onlinewebfonts.com/svg/img_418083.png" alt="arrow"
+							style="width: 5%; border: none; position: absolute; top: 106px; left: 243px;">
+						<p style="border: 5px solid; width: 22%; position: absolute; top: 100px; left: 300px;"><img
+								src="https://cdn2.iconfinder.com/data/icons/office-extras/512/Rising_Grid_Graph-512.png"
+								alt="trend" style="width: 15%;border: none;margin-bottom: 0;margin-right: 10px;">1.
+							Trend
+						</p>
+					</div>
+
+					<div class="fragment">
+						<img src="http://cdn.onlinewebfonts.com/svg/img_418083.png" alt="arrow"
+							style="width: 5%; border: none;	position: absolute; top: 103px; left: 540px;">
+						<p style="border: 5px solid;width: 39%;position: absolute;top: 100px;left: 600px;">2.
+							Assumption</p>
+					</div>
+
+					<div class="fragment">
+						<img src="http://cdn.onlinewebfonts.com/svg/img_418083.png" alt="arrow"
+							style="width: 5%; border: none; position: absolute; transform: rotate(90deg); top: 170px; left: 750px;">
+						<p style="border: 5px solid;width: 39%;position: absolute;top: 230px;left: 600px;">3. Test</p>
+					</div>
+
+					<div class="fragment">
+						<img src="http://cdn.onlinewebfonts.com/svg/img_418083.png" alt="arrow"
+							style="width: 5%;border: none;position: absolute;transform: rotate(90deg);top: 298px;left: 750px;">
+						<p style="border: 5px solid;width: 39%;position: absolute;top: 360px;left: 600px;">4. Analyze
+						</p>
+					</div>
+
+					<div class="fragment">
+						<img src="http://cdn.onlinewebfonts.com/svg/img_418083.png" alt="arrow"
+							style="width: 5%;border: none;position: absolute;transform: rotate(180deg);top: 362px;left: 538px;">
+						<p style="border: 5px solid;width: 28%;position: absolute;top: 360px;left: 245px;">5.
+							Realization
+						</p>
+					</div>
+					<img class="fragment" src="http://cdn.onlinewebfonts.com/svg/img_418083.png" alt="arrow"
+						style="width: 5%;border: none;position: absolute;transform: rotate(270deg);top: 240px;left: 350px;">
+				</section>
+			</section>
+			<section
+				data-background-image="https://www.publicdomainpictures.net/pictures/130000/velka/yellow-orange-background.jpg">
+				<img src="https://wonderbuild.com/wp-content/uploads/2017/10/google-analytics-logo.png" alt="GA"
+					style="width: 20%; border: none;">
+				<h4 style="text-shadow: 2px 2px 4px rgba(150, 150, 150, 1);">Three basic parameters</h4>
+				<ul>
+					<li class="fragment">User – user data</li>
+					<li class="fragment">Session – behavior</li>
+					<li class="fragment">Hits – what did the user</li>
+				</ul>
+				<img class="fragment" src="https://www.digishuffle.com/wp-content/uploads/2017/01/Metric-Sessions-3.png"
+					alt="structure" style="width: 60%;">
+			</section>
+			<section
+				data-background-image="https://www.publicdomainpictures.net/pictures/130000/velka/yellow-orange-background.jpg">
+				<section>
+					<img src="https://www.seoclerk.com/pics/520478-3f1jNw1489943324.jpg" alt="seo"
+						style="width: 41%;  margin: 20px;">
+					<img class="fragment" src="https://www.limenet.kiev.ua/data/news_item/11/8/118_a.png" alt="adwords"
+						style="width: 30%; margin: 20px;">
+					<img class="fragment"
+						src="https://print1839.com/wp-content/uploads/2018/03/%D0%BE%D0%B1%D1%83%D1%87%D0%B5%D0%BD%D0%B8%D0%B5-%D0%B7%D0%B0%D1%80%D0%B0%D0%B1%D0%BE%D1%82%D0%BA%D1%83-%D0%BD%D0%B0-adsense.jpg"
+						alt="adsense" style="width: 44%;">
+					<img class="fragment" src="https://sdb.in.ua/images/ecommerce.png" alt="buyOnline"
+						style="width: 31%;">
+				</section>
+				<section>
+					<img src="https://cdn.business2community.com/wp-content/uploads/2016/06/user-flow-google-analytics-1024x661.jpg.jpg"
+						alt="userFlow" style="width: 90%;position: fixed;left: 35px; top: 43px;">
+				</section>
+			</section>
+		</div>
+	</div>
+
+	<script src="js/reveal.js"></script>
+
+	<script>
+		// More info about config & dependencies:
+		// - https://github.com/hakimel/reveal.js#configuration
+		// - https://github.com/hakimel/reveal.js#dependencies
+		Reveal.initialize({
+			dependencies: [
+				{ src: 'plugin/markdown/marked.js' },
+				{ src: 'plugin/markdown/markdown.js' },
+				{ src: 'plugin/notes/notes.js', async: true },
+				{ src: 'plugin/highlight/highlight.js', async: true }
+			]
+		});
+	</script>
+</body>
+
+</html>
